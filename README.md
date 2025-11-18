@@ -31,7 +31,7 @@ This project includes open-source code licensed under the **MIT License**.
 See the full license in the [`LICENSE`](LICENSE) file.
 
 ## 🙏 Credits
-- Original project: **Bruno Francisco**  
+
 - Modified & developed for BIT Cultural Festival by **Muhammadu Haleek**
 
 ## 📬 Contact
