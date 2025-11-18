@@ -1,0 +1,29 @@
+<script setup lang="ts">
+import { useCountryGuessed } from '@/composables/useCountryGuessed.ts'
+import { computed } from 'vue'
+
+const { guessed, isLatestCountryGuessed } = useCountryGuessed('PN')
+
+const classes = computed(() => {
+  if (isLatestCountryGuessed.value) {
+    return 'fill-red-400 stroke-black'
+  }
+
+  if (guessed.value) {
+    return 'fill-stone-400 stroke-black'
+  }
+
+  return ''
+})
+</script>
+
+<template>
+  <g id="pn" :class="classes">
+    <metadata id="title245">Pitcairn Islands</metadata>
+    <path
+      id="pn-"
+      class="landxx coastxx pn"
+      d="m 342,911 c 0.313,-0.719 0.1,-0.958 -0.648,-0.72 0.196,0.258 0.412,0.498 0.648,0.72"
+    ></path>
+  </g>
+</template>
