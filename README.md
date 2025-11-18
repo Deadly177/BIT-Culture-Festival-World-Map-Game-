@@ -5,7 +5,7 @@ The game challenges players to type country names as fast as possible before tim
 
 ## 🧑‍💻 Developer
 **Muhammadu Haleek **  
-Student, Bachelor of Information Technology (BIT)
+Student, Bachelor of Computer Science (BIT)
 
 This project is based on an open-source project by **Bruno Francisco**, licensed under the MIT License.  
 I have customized and modified the original project to suit the needs of the cultural festival event.
